@@ -114,7 +114,7 @@ class TrtestCRUDDataRowAdded extends Seeder
                     'read' => 1,
                     'edit' => 1,
                     'add' => 1,
-                    'delete' => 1,
+                    'delete' => 0,
                     'details' => '{}',
                     'relation' => NULL,
                     'order' => 6,

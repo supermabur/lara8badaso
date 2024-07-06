@@ -48,7 +48,7 @@ class TrtestCRUDDataTypeAdded extends Seeder
                 'notification' => '[]',
                 'is_soft_delete' => false,
                 'created_at' => '2024-07-03T06:39:26.000000Z',
-                'updated_at' => '2024-07-03T06:47:05.000000Z',
+                'updated_at' => '2024-07-06T03:48:31.000000Z',
             ));
 
             Badaso::model('Permission')->generateFor('trtest');

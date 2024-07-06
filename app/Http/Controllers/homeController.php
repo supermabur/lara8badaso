@@ -13,19 +13,20 @@ class homeController extends Controller
      */
     public function index()
     {
-        $target = storage_path('app/public');
-        $link = public_path('storage');
+        $data = '';
+        // $target = storage_path('app/public');
+        // $link = public_path('storage');
 
-        if (file_exists($link)) {
-            $data = 'Symlink already exists';
-            return view('welcome',   compact('data'));
-        }
+        // if (file_exists($link)) {
+        //     $data = 'Symlink already exists';
+        //     return view('welcome',   compact('data'));
+        // }
 
-        if (symlink($target, $link)) {
-            $data = 'Symlink created successfully';
-        } else {
-            $data = 'Failed to create symlink';
-        }
+        // if (symlink($target, $link)) {
+        //     $data = 'Symlink created successfully';
+        // } else {
+        //     $data = 'Failed to create symlink';
+        // }
 
         return view('welcome',   compact('data'));
     }

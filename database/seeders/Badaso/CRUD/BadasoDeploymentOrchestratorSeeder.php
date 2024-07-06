@@ -22,5 +22,7 @@ class BadasoDeploymentOrchestratorSeeder extends Seeder
         $this->seed(TrtestCRUDDataRowAdded::class);
         $this->seed(MstimagingCRUDDataTypeAdded::class);
         $this->seed(MstimagingCRUDDataRowAdded::class);
+        $this->seed(MstbannerCRUDDataTypeAdded::class);
+        $this->seed(MstbannerCRUDDataRowAdded::class);
     }
 }

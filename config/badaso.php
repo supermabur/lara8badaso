@@ -21,6 +21,7 @@ return [
         'Uasoft\\Badaso\\Widgets\\UserWidget',
         'Uasoft\\Badaso\\Widgets\\RoleWidget',
         'Uasoft\\Badaso\\Widgets\\PermissionWidget',
+        'App\\Widgets\\xwidget', /** Register the widget here **/
     ],
     'whitelist' => [
         'web' => [],
